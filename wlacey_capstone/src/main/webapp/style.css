@@ -1,0 +1,69 @@
+*{
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-family: "UPS Sans", serif;
+}
+
+table{
+	
+	margin-left: auto;
+  	margin-right: auto;
+  	padding:10px;
+  	border-collapse:collapse;
+}
+
+th{
+	background-color: #351c15;
+	color: white;
+}
+
+td{
+	font-weight:bold;
+	background-color:#ffc400;
+	color: #351c15;
+}
+
+th,td{
+	text-align:center;
+	margin-right:20px;
+  	padding: 10px;
+  	border: 1px solid black;
+}
+
+input{
+    margin-bottom: 15px;
+    text-align:left;
+}
+
+input[type="submit"]{
+    background-color:#ffc400;
+}
+
+li {
+    display: inline;
+}
+
+ul.navBar li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.navBar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block;
+    list-style-type: none;
+    width:100%;
+    overflow: hidden;
+    background-color: #351c15;
+}
+
+
+ul.navBar li:hover{
+    height:100%;
+    background-color: #ffc400;
+}
